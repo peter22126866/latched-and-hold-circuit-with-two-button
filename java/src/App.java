@@ -21,15 +21,15 @@ public class App {
         button1.addMouseListener(new MouseAdapter(){
             public void mouseClicked(MouseEvent e){
                 button2.setSelected(false);
-                button1.setEnabled(false);
                 button2.setEnabled(true);
+                button1.setEnabled(false);
             }
         });
         button2.addMouseListener(new MouseAdapter(){
             public void mouseClicked(MouseEvent e){
                 button1.setSelected(false);
-                button2.setEnabled(false);
                 button1.setEnabled(true);
+                button2.setEnabled(false);
             }
         });
 
